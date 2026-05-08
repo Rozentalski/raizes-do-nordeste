@@ -1,0 +1,98 @@
+[
+  {
+    "id": "U01",
+    "nome": "Boa Viagem",
+    "endereco": "Av. Conselheiro Aguiar, 1234 — Boa Viagem, Recife/PE",
+    "telefone": "(81) 3333-1001",
+    "lat": -8.1213,
+    "lng": -34.9023,
+    "horarios": {
+      "segundaSexta": "07:00-22:00",
+      "sabado": "08:00-23:00",
+      "domingo": "08:00-21:00"
+    },
+    "cozinhaCompleta": true,
+    "produtosDisponiveis": [
+      "P01", "P02", "P03", "P04", "P05", "P06", "P07", "P08", "P09", "P10",
+      "P11", "P12", "P13", "P14", "P15", "P16", "P17", "P18", "P19", "P20",
+      "P21", "P22", "P23", "P24", "P25", "P26", "P27", "P28", "P29", "P30",
+      "P31", "P32", "P33", "P34"
+    ]
+  },
+  {
+    "id": "U02",
+    "nome": "Casa Forte",
+    "endereco": "Av. 17 de Agosto, 998 — Casa Forte, Recife/PE",
+    "telefone": "(81) 3333-1002",
+    "lat": -8.0359,
+    "lng": -34.9145,
+    "horarios": {
+      "segundaSexta": "07:00-22:00",
+      "sabado": "08:00-23:00",
+      "domingo": "08:00-21:00"
+    },
+    "cozinhaCompleta": true,
+    "produtosDisponiveis": [
+      "P01", "P02", "P03", "P04", "P05", "P06", "P07", "P08", "P09", "P10",
+      "P11", "P12", "P13", "P14", "P15", "P16", "P17", "P18", "P19", "P20",
+      "P21", "P22", "P23", "P24", "P25", "P26", "P27", "P28", "P29", "P30",
+      "P31", "P32", "P33", "P34"
+    ]
+  },
+  {
+    "id": "U03",
+    "nome": "Pina",
+    "endereco": "R. Setúbal, 567 — Pina, Recife/PE",
+    "telefone": "(81) 3333-1003",
+    "lat": -8.0964,
+    "lng": -34.8856,
+    "horarios": {
+      "segundaSexta": "07:00-22:00",
+      "sabado": "07:00-23:00",
+      "domingo": "07:00-22:00"
+    },
+    "cozinhaCompleta": true,
+    "produtosDisponiveis": [
+      "P01", "P02", "P03", "P04", "P05", "P06", "P07", "P08", "P09", "P10",
+      "P11", "P12", "P13", "P14", "P15", "P16", "P17", "P18", "P19", "P20",
+      "P21", "P22", "P23", "P24", "P25", "P26", "P27", "P28", "P29", "P30",
+      "P31", "P32", "P33", "P34"
+    ]
+  },
+  {
+    "id": "U04",
+    "nome": "Aflitos",
+    "endereco": "R. da Aurora, 1500 — Aflitos, Recife/PE",
+    "telefone": "(81) 3333-1004",
+    "lat": -8.0421,
+    "lng": -34.9061,
+    "horarios": {
+      "segundaSexta": "06:30-19:30",
+      "sabado": "08:00-14:00",
+      "domingo": "Fechado"
+    },
+    "cozinhaCompleta": false,
+    "produtosDisponiveis": [
+      "P01", "P02", "P03", "P04", "P07", "P08", "P11", "P12", "P19", "P22",
+      "P24", "P25", "P26", "P28", "P31", "P32"
+    ]
+  },
+  {
+    "id": "U05",
+    "nome": "Espinheiro",
+    "endereco": "R. Real da Torre, 800 — Espinheiro, Recife/PE",
+    "telefone": "(81) 3333-1005",
+    "lat": -8.0461,
+    "lng": -34.9000,
+    "horarios": {
+      "segundaSexta": "06:30-19:00",
+      "sabado": "08:00-13:00",
+      "domingo": "Fechado"
+    },
+    "cozinhaCompleta": false,
+    "produtosDisponiveis": [
+      "P01", "P02", "P03", "P04", "P07", "P08", "P11", "P12", "P19", "P22",
+      "P24", "P25", "P26", "P28"
+    ]
+  }
+]

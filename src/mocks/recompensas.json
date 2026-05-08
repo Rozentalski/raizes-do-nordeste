@@ -1,0 +1,50 @@
+[
+  {
+    "id": "R01",
+    "nome": "Suco do dia",
+    "descricao": "Qualquer suco do cardápio, tamanho 300ml.",
+    "custoPontos": 50,
+    "imagem": "https://placehold.co/400x400/4A6741/FAF6F1?text=Suco+Gratis",
+    "ativa": true
+  },
+  {
+    "id": "R02",
+    "nome": "Tapioca de Manteiga",
+    "descricao": "Tapioca de manteiga média, dourada na hora.",
+    "custoPontos": 80,
+    "imagem": "https://placehold.co/400x400/C84B31/FAF6F1?text=Tapioca+Gratis",
+    "ativa": true
+  },
+  {
+    "id": "R03",
+    "nome": "Cuscuz com Leite",
+    "descricao": "Tigela tradicional de cuscuz com leite condensado.",
+    "custoPontos": 120,
+    "imagem": "https://placehold.co/400x400/3D2817/FAF6F1?text=Cuscuz+Gratis",
+    "ativa": true
+  },
+  {
+    "id": "R04",
+    "nome": "Bolo de Rolo (fatia)",
+    "descricao": "Fatia individual do bolo de rolo tradicional.",
+    "custoPontos": 150,
+    "imagem": "https://placehold.co/400x400/9B4E20/FAF6F1?text=Bolo+de+Rolo",
+    "ativa": true
+  },
+  {
+    "id": "R05",
+    "nome": "Combo Café Nordestino",
+    "descricao": "Tapioca de manteiga + suco de caju 300ml + café coado. Combo completo.",
+    "custoPontos": 200,
+    "imagem": "https://placehold.co/400x400/7A2018/FAF6F1?text=Combo+Cafe",
+    "ativa": true
+  },
+  {
+    "id": "R06",
+    "nome": "Bolo Souza Leão (porção)",
+    "descricao": "Porção dupla do bolo Souza Leão tradicional. Resgate destaque do programa.",
+    "custoPontos": 300,
+    "imagem": "https://placehold.co/400x400/9B4E20/FAF6F1?text=Souza+Leao",
+    "ativa": true
+  }
+]
