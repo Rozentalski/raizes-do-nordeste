@@ -79,34 +79,6 @@ Você também pode criar uma conta nova em `/cadastro` — ela fica persistida n
 
 PIX sempre aprova — útil pra demonstrar o caminho feliz.
 
-## Estrutura do repositório
-
-```
-raizes-do-nordeste-pmd/
-├── README.md
-├── docs/                       Documentação técnica
-│   ├── 01-briefing.md
-│   ├── 02-requisitos.md
-│   ├── 03-fluxos.md
-│   ├── 04-design-system.md
-│   ├── 05-plano-testes.md
-│   ├── 06-decisoes-tecnicas.md
-│   └── DEPLOY.md               Passo a passo do deploy
-├── design/                     Telas e tokens dos designs
-├── public/                     Ícones PWA, manifest assets
-├── src/
-│   ├── pages/                  Por contexto (cliente, totem, admin)
-│   ├── components/             ui/ (shadcn) + atoms/molecules/organisms
-│   ├── features/               Lógica por feature
-│   ├── stores/                 Zustand stores
-│   ├── services/               API mockada (cardápio, pagamento, LGPD, auth)
-│   ├── mocks/                  JSON estático
-│   ├── hooks/                  Hooks customizados
-│   ├── lib/                    Utils
-│   └── __tests__/CENARIOS.md   Validação dos 20 cenários do plano de testes
-└── dist/                       Output do build (gerado)
-```
-
 ## Canais
 
 | Canal | Rota base | Observações |
@@ -115,34 +87,9 @@ raizes-do-nordeste-pmd/
 | **Totem** | `/totem` | Layout fixo 1080×1920 escalado pra viewport, touch ≥60px, inatividade 30s |
 | **Admin** | `/admin/login` | Sidebar + 4 telas (PDV, KDS, Dashboard, Auditoria) com guard por role |
 
-## Documentação relevante
-
-- [Briefing técnico](docs/01-briefing.md) — visão geral, atores, canais
-- [Requisitos funcionais e não-funcionais](docs/02-requisitos.md)
-- [Fluxos end-to-end](docs/03-fluxos.md)
-- [Design System](docs/04-design-system.md) — tokens visuais
-- [Plano de Testes](docs/05-plano-testes.md) — 20 cenários
-- [Decisões Técnicas (ADRs)](docs/06-decisoes-tecnicas.md)
-- [Validação dos cenários](src/__tests__/CENARIOS.md) — status PASS/PENDENTE
-- [Guia de deploy](docs/DEPLOY.md)
-
-## Screenshots
-
-> Substitua os placeholders abaixo por capturas das telas principais após o
-> deploy. Sugestão de telas: Home cliente · Cardápio com filtros · Acompanhamento
-> de pedido · KDS · Dashboard.
-
-```
-docs/screenshots/01-home-cliente.png
-docs/screenshots/02-cardapio.png
-docs/screenshots/03-acompanhamento.png
-docs/screenshots/04-kds.png
-docs/screenshots/05-dashboard.png
-```
-
 ## Créditos
 
-Projeto acadêmico desenvolvido por **Willian Lanes** para a disciplina de
+Projeto acadêmico desenvolvido por **Rudinei Rozentalski** para a disciplina de
 Projeto Multidisciplinar (UNINTER, 2026.1, Trilha Front-end).
 
 Cliente fictício baseado no estudo de caso oficial da disciplina (Raízes do
