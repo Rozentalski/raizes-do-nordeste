@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* shadcn / neutral base — surface e ink mapeados pra paleta da marca */
+    --background: 33 47% 96%;
+    --foreground: 27 45% 16%;
+
+    --card: 37 41% 91%;
+    --card-foreground: 27 45% 16%;
+
+    --popover: 33 47% 96%;
+    --popover-foreground: 27 45% 16%;
+
+    /* primary = terracota (#C84B31) */
+    --primary: 10 61% 49%;
+    --primary-foreground: 33 47% 96%;
+
+    /* secondary = mostarda (#E1A140) — foreground escuro pra contraste */
+    --secondary: 36 73% 57%;
+    --secondary-foreground: 27 45% 16%;
+
+    --muted: 37 41% 91%;
+    --muted-foreground: 36 9% 57%;
+
+    --accent: 37 41% 91%;
+    --accent-foreground: 27 45% 16%;
+
+    /* destructive = error red (#C62828) */
+    --destructive: 0 66% 47%;
+    --destructive-foreground: 33 47% 96%;
+
+    --border: 37 19% 82%;
+    --input: 37 19% 82%;
+    --ring: 10 61% 49%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 27 45% 8%;
+    --foreground: 33 47% 96%;
+
+    --card: 27 45% 12%;
+    --card-foreground: 33 47% 96%;
+
+    --popover: 27 45% 12%;
+    --popover-foreground: 33 47% 96%;
+
+    --primary: 10 61% 49%;
+    --primary-foreground: 33 47% 96%;
+
+    --secondary: 36 73% 57%;
+    --secondary-foreground: 27 45% 16%;
+
+    --muted: 27 25% 18%;
+    --muted-foreground: 36 9% 70%;
+
+    --accent: 27 25% 18%;
+    --accent-foreground: 33 47% 96%;
+
+    --destructive: 0 66% 47%;
+    --destructive-foreground: 33 47% 96%;
+
+    --border: 27 25% 22%;
+    --input: 27 25% 22%;
+    --ring: 10 61% 49%;
+  }
+}
+
+@layer base {
+  * {
+    border-color: hsl(var(--border));
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+
+  *:focus-visible {
+    @apply outline-2 outline-offset-2 outline-brand-terracota;
+  }
+}
