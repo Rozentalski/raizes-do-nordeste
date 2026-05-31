@@ -5,20 +5,44 @@
     "descricao": "Cuscuz de milho fresco no vapor, servido fundo, com leite condensado por cima e açúcar na borda. Café da manhã do interior.",
     "preco": 8.5,
     "categoria": "cafe-da-manha",
-    "imagem": "https://placehold.co/400x400/3D2817/FAF6F1?text=Cuscuz+com+Leite",
-    "tags": ["vegetariano", "sem-gluten", "tradicional", "regional"],
-    "unidades": ["U01", "U02", "U03", "U04", "U05"],
-    "alergenicos": ["leite"]
+    "imagem": "/produtos/p01.jpg",
+    "tags": [
+      "vegetariano",
+      "sem-gluten",
+      "tradicional",
+      "regional"
+    ],
+    "unidades": [
+      "U01",
+      "U02",
+      "U03",
+      "U04",
+      "U05"
+    ],
+    "alergenicos": [
+      "leite"
+    ]
   },
   {
     "id": "P02",
     "nome": "Tapioca de Manteiga",
     "descricao": "A clássica. Goma de mandioca fina dourada na chapa, manteiga de garrafa derretendo dentro. Quebra fácil.",
-    "preco": 12.0,
+    "preco": 12,
     "categoria": "tapiocas",
-    "imagem": "https://placehold.co/400x400/C84B31/FAF6F1?text=Tapioca+Manteiga",
-    "tags": ["vegetariano", "sem-gluten", "mais-pedido", "tradicional"],
-    "unidades": ["U01", "U02", "U03", "U04", "U05"],
+    "imagem": "/produtos/p02.jpg",
+    "tags": [
+      "vegetariano",
+      "sem-gluten",
+      "mais-pedido",
+      "tradicional"
+    ],
+    "unidades": [
+      "U01",
+      "U02",
+      "U03",
+      "U04",
+      "U05"
+    ],
     "customizacoes": [
       {
         "id": "tamanho",
@@ -26,35 +50,74 @@
         "tipo": "unica",
         "obrigatoria": true,
         "opcoes": [
-          { "id": "p", "nome": "Pequena (12cm)", "precoExtra": 0 },
-          { "id": "m", "nome": "Média (16cm)", "precoExtra": 4 },
-          { "id": "g", "nome": "Grande (20cm)", "precoExtra": 8 }
+          {
+            "id": "p",
+            "nome": "Pequena (12cm)",
+            "precoExtra": 0
+          },
+          {
+            "id": "m",
+            "nome": "Média (16cm)",
+            "precoExtra": 4
+          },
+          {
+            "id": "g",
+            "nome": "Grande (20cm)",
+            "precoExtra": 8
+          }
         ]
       }
     ],
-    "alergenicos": ["leite"]
+    "alergenicos": [
+      "leite"
+    ]
   },
   {
     "id": "P03",
     "nome": "Cuscuz com Ovo Mexido",
     "descricao": "Cuscuz de milho com dois ovos mexidos na manteiga, finalizado com queijo coalho ralado.",
-    "preco": 11.0,
+    "preco": 11,
     "categoria": "cafe-da-manha",
-    "imagem": "https://placehold.co/400x400/3D2817/FAF6F1?text=Cuscuz+com+Ovo",
-    "tags": ["vegetariano", "sem-gluten", "tradicional"],
-    "unidades": ["U01", "U02", "U03", "U04", "U05"],
-    "alergenicos": ["ovo", "leite"]
+    "imagem": "/produtos/p03.jpg",
+    "tags": [
+      "vegetariano",
+      "sem-gluten",
+      "tradicional"
+    ],
+    "unidades": [
+      "U01",
+      "U02",
+      "U03",
+      "U04",
+      "U05"
+    ],
+    "alergenicos": [
+      "ovo",
+      "leite"
+    ]
   },
   {
     "id": "P04",
     "nome": "Pão de Queijo Nordestino",
     "descricao": "Versão nordestina do pão de queijo: massa de polvilho com queijo coalho. Mais firme, casca dourada, miolo elástico. Porção com 4 unidades.",
-    "preco": 8.0,
+    "preco": 8,
     "categoria": "cafe-da-manha",
-    "imagem": "https://placehold.co/400x400/3D2817/FAF6F1?text=Pao+de+Queijo",
-    "tags": ["vegetariano", "sem-gluten"],
-    "unidades": ["U01", "U02", "U03", "U04", "U05"],
-    "alergenicos": ["leite", "ovo"]
+    "imagem": "/produtos/p04.jpg",
+    "tags": [
+      "vegetariano",
+      "sem-gluten"
+    ],
+    "unidades": [
+      "U01",
+      "U02",
+      "U03",
+      "U04",
+      "U05"
+    ],
+    "alergenicos": [
+      "leite",
+      "ovo"
+    ]
   },
   {
     "id": "P05",
@@ -62,20 +125,41 @@
     "descricao": "Milho verde fresco batido com leite e canela. Quente, cremoso. Servido em caneca grande.",
     "preco": 9.5,
     "categoria": "cafe-da-manha",
-    "imagem": "https://placehold.co/400x400/3D2817/FAF6F1?text=Mingau+de+Milho",
-    "tags": ["vegetariano", "sem-gluten", "quente", "regional"],
-    "unidades": ["U01", "U02", "U03"],
-    "alergenicos": ["leite"]
+    "imagem": "/produtos/p05.jpg",
+    "tags": [
+      "vegetariano",
+      "sem-gluten",
+      "quente",
+      "regional"
+    ],
+    "unidades": [
+      "U01",
+      "U02",
+      "U03"
+    ],
+    "alergenicos": [
+      "leite"
+    ]
   },
   {
     "id": "P06",
     "nome": "Tapioca de Carne de Sol com Queijo Coalho",
     "descricao": "Carne de sol desfiada na manteiga de garrafa, queijo coalho derretido, dentro da goma. Combinação que define o nordeste.",
-    "preco": 28.0,
+    "preco": 28,
     "categoria": "tapiocas",
-    "imagem": "https://placehold.co/400x400/C84B31/FAF6F1?text=Tapioca+Carne+de+Sol",
-    "tags": ["salgado", "sem-gluten", "mais-pedido", "tradicional", "regional"],
-    "unidades": ["U01", "U02", "U03"],
+    "imagem": "/produtos/p06.jpg",
+    "tags": [
+      "salgado",
+      "sem-gluten",
+      "mais-pedido",
+      "tradicional",
+      "regional"
+    ],
+    "unidades": [
+      "U01",
+      "U02",
+      "U03"
+    ],
     "customizacoes": [
       {
         "id": "tamanho",
@@ -83,8 +167,16 @@
         "tipo": "unica",
         "obrigatoria": true,
         "opcoes": [
-          { "id": "m", "nome": "Média (16cm)", "precoExtra": 0 },
-          { "id": "g", "nome": "Grande (20cm)", "precoExtra": 6 }
+          {
+            "id": "m",
+            "nome": "Média (16cm)",
+            "precoExtra": 0
+          },
+          {
+            "id": "g",
+            "nome": "Grande (20cm)",
+            "precoExtra": 6
+          }
         ]
       },
       {
@@ -93,23 +185,46 @@
         "tipo": "multipla",
         "obrigatoria": false,
         "opcoes": [
-          { "id": "queijo-extra", "nome": "Queijo coalho extra", "precoExtra": 5 },
-          { "id": "manteiga-garrafa", "nome": "Manteiga de garrafa extra", "precoExtra": 3 },
-          { "id": "pimenta", "nome": "Pimenta de cheiro à parte", "precoExtra": 0 }
+          {
+            "id": "queijo-extra",
+            "nome": "Queijo coalho extra",
+            "precoExtra": 5
+          },
+          {
+            "id": "manteiga-garrafa",
+            "nome": "Manteiga de garrafa extra",
+            "precoExtra": 3
+          },
+          {
+            "id": "pimenta",
+            "nome": "Pimenta de cheiro à parte",
+            "precoExtra": 0
+          }
         ]
       }
     ],
-    "alergenicos": ["leite"]
+    "alergenicos": [
+      "leite"
+    ]
   },
   {
     "id": "P07",
     "nome": "Tapioca de Queijo Coalho",
     "descricao": "Goma fina, queijo coalho derretido. Pra quem prefere o queijo solitário.",
-    "preco": 18.0,
+    "preco": 18,
     "categoria": "tapiocas",
-    "imagem": "https://placehold.co/400x400/C84B31/FAF6F1?text=Tapioca+Queijo",
-    "tags": ["vegetariano", "sem-gluten"],
-    "unidades": ["U01", "U02", "U03", "U04", "U05"],
+    "imagem": "/produtos/p07.jpg",
+    "tags": [
+      "vegetariano",
+      "sem-gluten"
+    ],
+    "unidades": [
+      "U01",
+      "U02",
+      "U03",
+      "U04",
+      "U05"
+    ],
     "customizacoes": [
       {
         "id": "tamanho",
@@ -117,56 +232,112 @@
         "tipo": "unica",
         "obrigatoria": true,
         "opcoes": [
-          { "id": "p", "nome": "Pequena", "precoExtra": 0 },
-          { "id": "m", "nome": "Média", "precoExtra": 3 },
-          { "id": "g", "nome": "Grande", "precoExtra": 6 }
+          {
+            "id": "p",
+            "nome": "Pequena",
+            "precoExtra": 0
+          },
+          {
+            "id": "m",
+            "nome": "Média",
+            "precoExtra": 3
+          },
+          {
+            "id": "g",
+            "nome": "Grande",
+            "precoExtra": 6
+          }
         ]
       }
     ],
-    "alergenicos": ["leite"]
+    "alergenicos": [
+      "leite"
+    ]
   },
   {
     "id": "P08",
     "nome": "Tapioca de Frango com Catupiry",
     "descricao": "Frango desfiado refogado com cebola, catupiry cremoso. Recheio generoso.",
-    "preco": 22.0,
+    "preco": 22,
     "categoria": "tapiocas",
-    "imagem": "https://placehold.co/400x400/C84B31/FAF6F1?text=Tapioca+Frango",
-    "tags": ["salgado", "sem-gluten", "mais-pedido"],
-    "unidades": ["U01", "U02", "U03", "U04", "U05"],
-    "alergenicos": ["leite"]
+    "imagem": "/produtos/p08.jpg",
+    "tags": [
+      "salgado",
+      "sem-gluten",
+      "mais-pedido"
+    ],
+    "unidades": [
+      "U01",
+      "U02",
+      "U03",
+      "U04",
+      "U05"
+    ],
+    "alergenicos": [
+      "leite"
+    ]
   },
   {
     "id": "P09",
     "nome": "Tapioca de Camarão",
     "descricao": "Camarão na manteiga com leite de coco e cheiro verde. Pitada de pimenta opcional, à parte.",
-    "preco": 32.0,
+    "preco": 32,
     "categoria": "tapiocas",
-    "imagem": "https://placehold.co/400x400/C84B31/FAF6F1?text=Tapioca+Camarao",
-    "tags": ["salgado", "sem-gluten", "regional"],
-    "unidades": ["U01", "U02", "U03"],
-    "alergenicos": ["crustaceos", "leite"]
+    "imagem": "/produtos/p09.jpg",
+    "tags": [
+      "salgado",
+      "sem-gluten",
+      "regional"
+    ],
+    "unidades": [
+      "U01",
+      "U02",
+      "U03"
+    ],
+    "alergenicos": [
+      "crustaceos",
+      "leite"
+    ]
   },
   {
     "id": "P10",
     "nome": "Tapioca Vegetariana",
     "descricao": "Queijo coalho, tomate em rodelas, manjericão fresco. Leve, sem firula, dentro da goma.",
-    "preco": 19.0,
+    "preco": 19,
     "categoria": "tapiocas",
-    "imagem": "https://placehold.co/400x400/C84B31/FAF6F1?text=Tapioca+Vegetariana",
-    "tags": ["vegetariano", "sem-gluten"],
-    "unidades": ["U01", "U02", "U03"],
-    "alergenicos": ["leite"]
+    "imagem": "/produtos/p10.jpg",
+    "tags": [
+      "vegetariano",
+      "sem-gluten"
+    ],
+    "unidades": [
+      "U01",
+      "U02",
+      "U03"
+    ],
+    "alergenicos": [
+      "leite"
+    ]
   },
   {
     "id": "P11",
     "nome": "Tapioca Doce de Banana com Canela",
     "descricao": "Banana caramelizada na manteiga, canela em pó, dentro da goma fina. Doce mas não enjoativo.",
-    "preco": 16.0,
+    "preco": 16,
     "categoria": "tapiocas",
-    "imagem": "https://placehold.co/400x400/E1A140/3D2817?text=Tapioca+Banana",
-    "tags": ["vegetariano", "sem-gluten", "doce"],
-    "unidades": ["U01", "U02", "U03", "U04", "U05"],
+    "imagem": "/produtos/p11.jpg",
+    "tags": [
+      "vegetariano",
+      "sem-gluten",
+      "doce"
+    ],
+    "unidades": [
+      "U01",
+      "U02",
+      "U03",
+      "U04",
+      "U05"
+    ],
     "customizacoes": [
       {
         "id": "extras-doce",
@@ -174,45 +345,93 @@
         "tipo": "multipla",
         "obrigatoria": false,
         "opcoes": [
-          { "id": "doce-leite", "nome": "Doce de leite", "precoExtra": 4 },
-          { "id": "leite-condensado", "nome": "Leite condensado", "precoExtra": 2 },
-          { "id": "sorvete", "nome": "Bola de sorvete de creme", "precoExtra": 7 }
+          {
+            "id": "doce-leite",
+            "nome": "Doce de leite",
+            "precoExtra": 4
+          },
+          {
+            "id": "leite-condensado",
+            "nome": "Leite condensado",
+            "precoExtra": 2
+          },
+          {
+            "id": "sorvete",
+            "nome": "Bola de sorvete de creme",
+            "precoExtra": 7
+          }
         ]
       }
     ],
-    "alergenicos": ["leite"]
+    "alergenicos": [
+      "leite"
+    ]
   },
   {
     "id": "P12",
     "nome": "Tapioca Romeu e Julieta",
     "descricao": "Goiabada cascão derretida com queijo coalho. O contraste doce-salgado que virou clássico.",
-    "preco": 18.0,
+    "preco": 18,
     "categoria": "tapiocas",
-    "imagem": "https://placehold.co/400x400/E1A140/3D2817?text=Romeu+e+Julieta",
-    "tags": ["vegetariano", "sem-gluten", "doce", "tradicional"],
-    "unidades": ["U01", "U02", "U03", "U04", "U05"],
-    "alergenicos": ["leite"]
+    "imagem": "/produtos/p12.jpg",
+    "tags": [
+      "vegetariano",
+      "sem-gluten",
+      "doce",
+      "tradicional"
+    ],
+    "unidades": [
+      "U01",
+      "U02",
+      "U03",
+      "U04",
+      "U05"
+    ],
+    "alergenicos": [
+      "leite"
+    ]
   },
   {
     "id": "P13",
     "nome": "Tapioca de Chocolate com Banana",
     "descricao": "Chocolate ao leite, banana fatiada, leite condensado por cima. Sobremesa em forma de tapioca.",
-    "preco": 18.0,
+    "preco": 18,
     "categoria": "tapiocas",
-    "imagem": "https://placehold.co/400x400/E1A140/3D2817?text=Tapioca+Chocolate",
-    "tags": ["vegetariano", "sem-gluten", "doce"],
-    "unidades": ["U01", "U02", "U03"],
-    "alergenicos": ["leite", "soja"]
+    "imagem": "/produtos/p13.jpg",
+    "tags": [
+      "vegetariano",
+      "sem-gluten",
+      "doce"
+    ],
+    "unidades": [
+      "U01",
+      "U02",
+      "U03"
+    ],
+    "alergenicos": [
+      "leite",
+      "soja"
+    ]
   },
   {
     "id": "P14",
     "nome": "Cuscuz com Carne de Sol e Queijo",
     "descricao": "Cuscuz de milho, carne de sol desfiada na manteiga, queijo coalho derretido. Servido na panela, pra dividir.",
-    "preco": 26.0,
+    "preco": 26,
     "categoria": "cuscuz",
-    "imagem": "https://placehold.co/400x400/E1A140/3D2817?text=Cuscuz+Carne+de+Sol",
-    "tags": ["salgado", "sem-gluten", "mais-pedido", "tradicional", "regional"],
-    "unidades": ["U01", "U02", "U03"],
+    "imagem": "/produtos/p14.jpg",
+    "tags": [
+      "salgado",
+      "sem-gluten",
+      "mais-pedido",
+      "tradicional",
+      "regional"
+    ],
+    "unidades": [
+      "U01",
+      "U02",
+      "U03"
+    ],
     "customizacoes": [
       {
         "id": "ponto-carne",
@@ -220,67 +439,133 @@
         "tipo": "unica",
         "obrigatoria": false,
         "opcoes": [
-          { "id": "padrao", "nome": "Como vem (médio)", "precoExtra": 0 },
-          { "id": "passada", "nome": "Bem passada", "precoExtra": 0 },
-          { "id": "suculenta", "nome": "Suculenta (na manteiga)", "precoExtra": 0 }
+          {
+            "id": "padrao",
+            "nome": "Como vem (médio)",
+            "precoExtra": 0
+          },
+          {
+            "id": "passada",
+            "nome": "Bem passada",
+            "precoExtra": 0
+          },
+          {
+            "id": "suculenta",
+            "nome": "Suculenta (na manteiga)",
+            "precoExtra": 0
+          }
         ]
       }
     ],
-    "alergenicos": ["leite"]
+    "alergenicos": [
+      "leite"
+    ]
   },
   {
     "id": "P15",
     "nome": "Cuscuz Paulista",
     "descricao": "Cuscuz de milho com sardinha, ovo, ervilha, palmito e tomate. Versão do interior paulista, com toque nordestino.",
-    "preco": 19.0,
+    "preco": 19,
     "categoria": "cuscuz",
-    "imagem": "https://placehold.co/400x400/E1A140/3D2817?text=Cuscuz+Paulista",
-    "tags": ["salgado", "sem-gluten"],
-    "unidades": ["U01", "U02", "U03"],
-    "alergenicos": ["peixe", "ovo"]
+    "imagem": "/produtos/p15.jpg",
+    "tags": [
+      "salgado",
+      "sem-gluten"
+    ],
+    "unidades": [
+      "U01",
+      "U02",
+      "U03"
+    ],
+    "alergenicos": [
+      "peixe",
+      "ovo"
+    ]
   },
   {
     "id": "P16",
     "nome": "Cuscuz com Bacalhau",
     "descricao": "Bacalhau desfiado refogado com cebola roxa, pimentão e azeitona. Cuscuz fofinho como base.",
-    "preco": 32.0,
+    "preco": 32,
     "categoria": "cuscuz",
-    "imagem": "https://placehold.co/400x400/E1A140/3D2817?text=Cuscuz+Bacalhau",
-    "tags": ["salgado", "sem-gluten"],
-    "unidades": ["U01", "U02", "U03"],
-    "alergenicos": ["peixe"]
+    "imagem": "/produtos/p16.jpg",
+    "tags": [
+      "salgado",
+      "sem-gluten"
+    ],
+    "unidades": [
+      "U01",
+      "U02",
+      "U03"
+    ],
+    "alergenicos": [
+      "peixe"
+    ]
   },
   {
     "id": "P17",
     "nome": "Cuscuz com Frango Caipira",
     "descricao": "Frango caipira desfiado, milho verde, ervilha. Cremoso, com molho próprio.",
-    "preco": 22.0,
+    "preco": 22,
     "categoria": "cuscuz",
-    "imagem": "https://placehold.co/400x400/E1A140/3D2817?text=Cuscuz+Frango",
-    "tags": ["salgado", "sem-gluten"],
-    "unidades": ["U01", "U02", "U03"],
-    "alergenicos": ["leite"]
+    "imagem": "/produtos/p17.jpg",
+    "tags": [
+      "salgado",
+      "sem-gluten"
+    ],
+    "unidades": [
+      "U01",
+      "U02",
+      "U03"
+    ],
+    "alergenicos": [
+      "leite"
+    ]
   },
   {
     "id": "P18",
     "nome": "Cuscuz de Tapioca com Coco",
     "descricao": "Tapioca hidratada no leite, coco fresco ralado, açúcar. Sobremesa fria, leve.",
-    "preco": 14.0,
+    "preco": 14,
     "categoria": "cuscuz",
-    "imagem": "https://placehold.co/400x400/E1A140/3D2817?text=Cuscuz+Tapioca",
-    "tags": ["vegetariano", "sem-gluten", "doce", "gelado", "regional"],
-    "unidades": ["U01", "U02", "U03"],
-    "alergenicos": ["leite"]
+    "imagem": "/produtos/p18.jpg",
+    "tags": [
+      "vegetariano",
+      "sem-gluten",
+      "doce",
+      "gelado",
+      "regional"
+    ],
+    "unidades": [
+      "U01",
+      "U02",
+      "U03"
+    ],
+    "alergenicos": [
+      "leite"
+    ]
   },
   {
     "id": "P19",
     "nome": "Bolo de Rolo",
     "descricao": "Massa fina de pão de ló enrolada com goiabada cascão. Cada fatia mostra as camadas. Patrimônio cultural pernambucano.",
-    "preco": 14.0,
+    "preco": 14,
     "categoria": "bolos",
-    "imagem": "https://placehold.co/400x400/9B4E20/FAF6F1?text=Bolo+de+Rolo",
-    "tags": ["vegetariano", "doce", "mais-pedido", "tradicional", "regional"],
-    "unidades": ["U01", "U02", "U03", "U04", "U05"],
+    "imagem": "/produtos/p19.jpg",
+    "tags": [
+      "vegetariano",
+      "doce",
+      "mais-pedido",
+      "tradicional",
+      "regional"
+    ],
+    "unidades": [
+      "U01",
+      "U02",
+      "U03",
+      "U04",
+      "U05"
+    ],
     "customizacoes": [
       {
         "id": "tamanho-fatia",
@@ -288,67 +573,146 @@
         "tipo": "unica",
         "obrigatoria": true,
         "opcoes": [
-          { "id": "fatia", "nome": "Fatia individual", "precoExtra": 0 },
-          { "id": "meio", "nome": "Meio bolo (serve 4)", "precoExtra": 36 },
-          { "id": "inteiro", "nome": "Bolo inteiro (serve 8)", "precoExtra": 70 }
+          {
+            "id": "fatia",
+            "nome": "Fatia individual",
+            "precoExtra": 0
+          },
+          {
+            "id": "meio",
+            "nome": "Meio bolo (serve 4)",
+            "precoExtra": 36
+          },
+          {
+            "id": "inteiro",
+            "nome": "Bolo inteiro (serve 8)",
+            "precoExtra": 70
+          }
         ]
       }
     ],
-    "alergenicos": ["gluten", "ovo", "leite"]
+    "alergenicos": [
+      "gluten",
+      "ovo",
+      "leite"
+    ]
   },
   {
     "id": "P20",
     "nome": "Bolo de Macaxeira",
     "descricao": "Massa de mandioca cozida com leite de coco e queijo coalho ralado. Casca crocante, miolo úmido.",
-    "preco": 9.0,
+    "preco": 9,
     "categoria": "bolos",
-    "imagem": "https://placehold.co/400x400/9B4E20/FAF6F1?text=Bolo+de+Macaxeira",
-    "tags": ["vegetariano", "sem-gluten", "doce", "regional"],
-    "unidades": ["U01", "U02", "U03"],
-    "alergenicos": ["leite", "ovo"]
+    "imagem": "/produtos/p20.jpg",
+    "tags": [
+      "vegetariano",
+      "sem-gluten",
+      "doce",
+      "regional"
+    ],
+    "unidades": [
+      "U01",
+      "U02",
+      "U03"
+    ],
+    "alergenicos": [
+      "leite",
+      "ovo"
+    ]
   },
   {
     "id": "P21",
     "nome": "Bolo Souza Leão",
     "descricao": "Receita tradicional do engenho. Goma de tapioca, leite de coco, manteiga de garrafa, gemas. Compacto, rico, levemente úmido.",
-    "preco": 16.0,
+    "preco": 16,
     "categoria": "bolos",
-    "imagem": "https://placehold.co/400x400/9B4E20/FAF6F1?text=Souza+Leao",
-    "tags": ["vegetariano", "sem-gluten", "doce", "tradicional", "regional"],
-    "unidades": ["U01", "U02", "U03"],
-    "alergenicos": ["leite", "ovo"]
+    "imagem": "/produtos/p21.jpg",
+    "tags": [
+      "vegetariano",
+      "sem-gluten",
+      "doce",
+      "tradicional",
+      "regional"
+    ],
+    "unidades": [
+      "U01",
+      "U02",
+      "U03"
+    ],
+    "alergenicos": [
+      "leite",
+      "ovo"
+    ]
   },
   {
     "id": "P22",
     "nome": "Bolo de Milho Verde",
     "descricao": "Milho verde batido com leite condensado, coco ralado, manteiga. Casquinha caramelizada.",
-    "preco": 9.0,
+    "preco": 9,
     "categoria": "bolos",
-    "imagem": "https://placehold.co/400x400/9B4E20/FAF6F1?text=Bolo+de+Milho",
-    "tags": ["vegetariano", "sem-gluten", "doce"],
-    "unidades": ["U01", "U02", "U03", "U04", "U05"],
-    "alergenicos": ["leite", "ovo"]
+    "imagem": "/produtos/p22.jpg",
+    "tags": [
+      "vegetariano",
+      "sem-gluten",
+      "doce"
+    ],
+    "unidades": [
+      "U01",
+      "U02",
+      "U03",
+      "U04",
+      "U05"
+    ],
+    "alergenicos": [
+      "leite",
+      "ovo"
+    ]
   },
   {
     "id": "P23",
     "nome": "Pé de Moleque com Bolo de Mandioca",
     "descricao": "Bolo de mandioca acompanhado de pé de moleque caseiro. Combinação que aparece nas festas e fica o ano todo.",
-    "preco": 22.0,
+    "preco": 22,
     "categoria": "bolos",
-    "imagem": "https://placehold.co/400x400/9B4E20/FAF6F1?text=Pe+de+Moleque+e+Bolo",
-    "tags": ["vegetariano", "sem-gluten", "doce", "regional"],
-    "unidades": ["U01", "U02", "U03"],
-    "alergenicos": ["leite", "ovo", "amendoim"]
+    "imagem": "/produtos/p23.jpg",
+    "tags": [
+      "vegetariano",
+      "sem-gluten",
+      "doce",
+      "regional"
+    ],
+    "unidades": [
+      "U01",
+      "U02",
+      "U03"
+    ],
+    "alergenicos": [
+      "leite",
+      "ovo",
+      "amendoim"
+    ]
   },
   {
     "id": "P24",
     "nome": "Café Coado da Casa",
     "descricao": "Café coado em coador de pano, grão arábica torrado escuro. Servido na xícara de louça.",
-    "preco": 5.0,
+    "preco": 5,
     "categoria": "bebidas",
-    "imagem": "https://placehold.co/400x400/4A6741/FAF6F1?text=Cafe+Coado",
-    "tags": ["vegetariano", "sem-gluten", "quente", "tradicional", "mais-pedido"],
-    "unidades": ["U01", "U02", "U03", "U04", "U05"],
+    "imagem": "/produtos/p24.jpg",
+    "tags": [
+      "vegetariano",
+      "sem-gluten",
+      "quente",
+      "tradicional",
+      "mais-pedido"
+    ],
+    "unidades": [
+      "U01",
+      "U02",
+      "U03",
+      "U04",
+      "U05"
+    ],
     "customizacoes": [
       {
         "id": "acucar",
@@ -356,9 +720,21 @@
         "tipo": "unica",
         "obrigatoria": false,
         "opcoes": [
-          { "id": "com", "nome": "Com açúcar", "precoExtra": 0 },
-          { "id": "sem", "nome": "Sem açúcar", "precoExtra": 0 },
-          { "id": "adocante", "nome": "Adoçante stévia", "precoExtra": 0 }
+          {
+            "id": "com",
+            "nome": "Com açúcar",
+            "precoExtra": 0
+          },
+          {
+            "id": "sem",
+            "nome": "Sem açúcar",
+            "precoExtra": 0
+          },
+          {
+            "id": "adocante",
+            "nome": "Adoçante stévia",
+            "precoExtra": 0
+          }
         ]
       }
     ],
@@ -368,11 +744,23 @@
     "id": "P25",
     "nome": "Suco de Caju",
     "descricao": "Caju fresco, batido na hora, sem açúcar adicionado. Pode pedir mais doce.",
-    "preco": 8.0,
+    "preco": 8,
     "categoria": "bebidas",
-    "imagem": "https://placehold.co/400x400/4A6741/FAF6F1?text=Suco+de+Caju",
-    "tags": ["vegetariano", "sem-gluten", "gelado", "regional", "mais-pedido"],
-    "unidades": ["U01", "U02", "U03", "U04", "U05"],
+    "imagem": "/produtos/p25.jpg",
+    "tags": [
+      "vegetariano",
+      "sem-gluten",
+      "gelado",
+      "regional",
+      "mais-pedido"
+    ],
+    "unidades": [
+      "U01",
+      "U02",
+      "U03",
+      "U04",
+      "U05"
+    ],
     "customizacoes": [
       {
         "id": "tamanho-suco",
@@ -380,8 +768,16 @@
         "tipo": "unica",
         "obrigatoria": true,
         "opcoes": [
-          { "id": "300", "nome": "300 ml", "precoExtra": 0 },
-          { "id": "500", "nome": "500 ml", "precoExtra": 3 }
+          {
+            "id": "300",
+            "nome": "300 ml",
+            "precoExtra": 0
+          },
+          {
+            "id": "500",
+            "nome": "500 ml",
+            "precoExtra": 3
+          }
         ]
       },
       {
@@ -390,9 +786,21 @@
         "tipo": "unica",
         "obrigatoria": false,
         "opcoes": [
-          { "id": "natural", "nome": "Natural (sem açúcar)", "precoExtra": 0 },
-          { "id": "acucar", "nome": "Com açúcar", "precoExtra": 0 },
-          { "id": "adocante", "nome": "Com adoçante", "precoExtra": 0 }
+          {
+            "id": "natural",
+            "nome": "Natural (sem açúcar)",
+            "precoExtra": 0
+          },
+          {
+            "id": "acucar",
+            "nome": "Com açúcar",
+            "precoExtra": 0
+          },
+          {
+            "id": "adocante",
+            "nome": "Com adoçante",
+            "precoExtra": 0
+          }
         ]
       }
     ],
@@ -402,89 +810,175 @@
     "id": "P26",
     "nome": "Suco de Acerola",
     "descricao": "Acerola batida com água gelada. Vitamina C como Deus mandou.",
-    "preco": 8.0,
+    "preco": 8,
     "categoria": "bebidas",
-    "imagem": "https://placehold.co/400x400/4A6741/FAF6F1?text=Suco+de+Acerola",
-    "tags": ["vegetariano", "sem-gluten", "gelado", "regional"],
-    "unidades": ["U01", "U02", "U03", "U04", "U05"],
+    "imagem": "/produtos/p26.jpg",
+    "tags": [
+      "vegetariano",
+      "sem-gluten",
+      "gelado",
+      "regional"
+    ],
+    "unidades": [
+      "U01",
+      "U02",
+      "U03",
+      "U04",
+      "U05"
+    ],
     "alergenicos": []
   },
   {
     "id": "P27",
     "nome": "Suco de Cajá",
     "descricao": "Cajá amarelo, batido com água. Sabor cítrico-tropical, raro fora do nordeste.",
-    "preco": 9.0,
+    "preco": 9,
     "categoria": "bebidas",
-    "imagem": "https://placehold.co/400x400/4A6741/FAF6F1?text=Suco+de+Caja",
-    "tags": ["vegetariano", "sem-gluten", "gelado", "regional"],
-    "unidades": ["U01", "U02", "U03"],
+    "imagem": "/produtos/p27.jpg",
+    "tags": [
+      "vegetariano",
+      "sem-gluten",
+      "gelado",
+      "regional"
+    ],
+    "unidades": [
+      "U01",
+      "U02",
+      "U03"
+    ],
     "alergenicos": []
   },
   {
     "id": "P28",
     "nome": "Água de Coco Gelada",
     "descricao": "Coco verde, aberto na hora. Servido com canudo de papel.",
-    "preco": 7.0,
+    "preco": 7,
     "categoria": "bebidas",
-    "imagem": "https://placehold.co/400x400/4A6741/FAF6F1?text=Agua+de+Coco",
-    "tags": ["vegetariano", "sem-gluten", "gelado"],
-    "unidades": ["U01", "U02", "U03", "U04", "U05"],
+    "imagem": "/produtos/p28.jpg",
+    "tags": [
+      "vegetariano",
+      "sem-gluten",
+      "gelado"
+    ],
+    "unidades": [
+      "U01",
+      "U02",
+      "U03",
+      "U04",
+      "U05"
+    ],
     "alergenicos": []
   },
   {
     "id": "P29",
     "nome": "Mate com Limão",
     "descricao": "Chá mate gelado com limão e açúcar. Lembra praia.",
-    "preco": 6.0,
+    "preco": 6,
     "categoria": "bebidas",
-    "imagem": "https://placehold.co/400x400/4A6741/FAF6F1?text=Mate+com+Limao",
-    "tags": ["vegetariano", "sem-gluten", "gelado"],
-    "unidades": ["U01", "U02", "U03"],
+    "imagem": "/produtos/p29.jpg",
+    "tags": [
+      "vegetariano",
+      "sem-gluten",
+      "gelado"
+    ],
+    "unidades": [
+      "U01",
+      "U02",
+      "U03"
+    ],
     "alergenicos": []
   },
   {
     "id": "P30",
     "nome": "Combo Café Nordestino",
     "descricao": "Tapioca de manteiga média + suco de caju 300ml + café coado. Café da manhã completo, com 12% de desconto sobre o avulso.",
-    "preco": 22.0,
+    "preco": 22,
     "categoria": "promocoes",
-    "imagem": "https://placehold.co/400x400/7A2018/FAF6F1?text=Combo+Cafe",
-    "tags": ["vegetariano", "combo"],
-    "unidades": ["U01", "U02", "U03"],
-    "alergenicos": ["leite"]
+    "imagem": "/produtos/p30.jpg",
+    "tags": [
+      "vegetariano",
+      "combo"
+    ],
+    "unidades": [
+      "U01",
+      "U02",
+      "U03"
+    ],
+    "alergenicos": [
+      "leite"
+    ]
   },
   {
     "id": "P31",
     "nome": "Canjica Doce",
     "descricao": "Milho branco cozido com leite, leite condensado, canela e cravo. Versão nordestina (a sulista é com batata-doce).",
-    "preco": 10.0,
+    "preco": 10,
     "categoria": "promocoes",
-    "imagem": "https://placehold.co/400x400/7A2018/FAF6F1?text=Canjica",
-    "tags": ["vegetariano", "sem-gluten", "doce", "sazonal-junino", "tradicional", "regional"],
-    "unidades": ["U01", "U02", "U03", "U04"],
-    "alergenicos": ["leite"]
+    "imagem": "/produtos/p31.jpg",
+    "tags": [
+      "vegetariano",
+      "sem-gluten",
+      "doce",
+      "sazonal-junino",
+      "tradicional",
+      "regional"
+    ],
+    "unidades": [
+      "U01",
+      "U02",
+      "U03",
+      "U04"
+    ],
+    "alergenicos": [
+      "leite"
+    ]
   },
   {
     "id": "P32",
     "nome": "Pamonha de Milho Verde",
     "descricao": "Milho verde ralado, açúcar, coco, embrulhado na palha do próprio milho e cozido.",
-    "preco": 9.0,
+    "preco": 9,
     "categoria": "promocoes",
-    "imagem": "https://placehold.co/400x400/7A2018/FAF6F1?text=Pamonha",
-    "tags": ["vegetariano", "sem-gluten", "doce", "sazonal-junino", "tradicional", "regional"],
-    "unidades": ["U01", "U02", "U03", "U04"],
+    "imagem": "/produtos/p32.jpg",
+    "tags": [
+      "vegetariano",
+      "sem-gluten",
+      "doce",
+      "sazonal-junino",
+      "tradicional",
+      "regional"
+    ],
+    "unidades": [
+      "U01",
+      "U02",
+      "U03",
+      "U04"
+    ],
     "alergenicos": []
   },
   {
     "id": "P33",
     "nome": "Pé de Moleque Junino",
     "descricao": "Amendoim, rapadura derretida, sal. Quebra na boca. Ed. limitada de junho.",
-    "preco": 6.0,
+    "preco": 6,
     "categoria": "promocoes",
-    "imagem": "https://placehold.co/400x400/7A2018/FAF6F1?text=Pe+de+Moleque",
-    "tags": ["vegetariano", "sem-gluten", "doce", "sazonal-junino", "tradicional", "regional"],
-    "unidades": ["U01", "U02", "U03"],
-    "alergenicos": ["amendoim"]
+    "imagem": "/produtos/p33.jpg",
+    "tags": [
+      "vegetariano",
+      "sem-gluten",
+      "doce",
+      "sazonal-junino",
+      "tradicional",
+      "regional"
+    ],
+    "unidades": [
+      "U01",
+      "U02",
+      "U03"
+    ],
+    "alergenicos": [
+      "amendoim"
+    ]
   },
   {
     "id": "P34",
@@ -492,9 +986,20 @@
     "descricao": "4 tapiocas variadas (carne de sol, queijo, frango, vegetariana) + 2 sucos 500ml + bolo de rolo (meio). Serve 4 pessoas.",
     "preco": 89.9,
     "categoria": "promocoes",
-    "imagem": "https://placehold.co/400x400/7A2018/FAF6F1?text=Combo+Familia",
-    "tags": ["combo", "mais-pedido"],
-    "unidades": ["U01", "U02", "U03"],
-    "alergenicos": ["leite", "ovo", "gluten"]
+    "imagem": "/produtos/p34.jpg",
+    "tags": [
+      "combo",
+      "mais-pedido"
+    ],
+    "unidades": [
+      "U01",
+      "U02",
+      "U03"
+    ],
+    "alergenicos": [
+      "leite",
+      "ovo",
+      "gluten"
+    ]
   }
 ]
